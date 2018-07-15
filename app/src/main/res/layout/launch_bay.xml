@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Bay"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/google_aurebesh"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="@string/products_title"
+        android:textSize="@dimen/title_size" />
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aurebesh_english_switch"
+        android:text="Aurebesh to English"
+        android:checked="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/aurebesh_translated"
+        android:textSize="20sp"
+        android:id="@+id/text_view_aurebesh"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/aurebesh_translated"
+        android:textSize="20sp"
+        android:id="@+id/text_view_english"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="70">
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:text="A" />
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:text="B" />
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:text="C" />
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="D" />
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="E" />
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="F" />
+        <Button
+            android:id="@+id/buttonG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="G" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="70">
+
+        <Button
+            android:id="@+id/buttonH"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="H" />
+        <Button
+            android:id="@+id/buttonI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="I" />
+        <Button
+            android:id="@+id/buttonJ"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/buttonK"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="K" />
+        <Button
+            android:id="@+id/buttonL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="L" />
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="M" />
+        <Button
+            android:id="@+id/buttonN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="N" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="70">
+        <Button
+            android:id="@+id/buttonO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="O" />
+        <Button
+            android:id="@+id/buttonP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="P" />
+        <Button
+            android:id="@+id/buttonQ"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="Q" />
+        <Button
+            android:id="@+id/buttonR"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="R" />
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="S" />
+        <Button
+            android:id="@+id/buttonT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="T" />
+        <Button
+            android:id="@+id/buttonU"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="U" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="60">
+
+
+        <Button
+            android:id="@+id/buttonV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="V" />
+        <Button
+            android:id="@+id/buttonW"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="W" />
+        <Button
+            android:id="@+id/buttonX"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="X" />
+        <Button
+            android:id="@+id/buttonY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="Y" />
+        <Button
+            android:id="@+id/buttonZ"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+            android:onClick="addLetter"
+            android:text="Z" />
+        <Button
+            android:id="@+id/buttonBackSpace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="10"
+
+            android:text="del" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="70">
+
+        <Button
+            android:id="@+id/buttonSPACE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="70"
+            android:text=" " />
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Clear" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view_aurebesh"
+        />
+
+
+
+
+    </LinearLayout>

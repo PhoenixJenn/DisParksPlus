@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvMagicKingdom"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_marginBottom="1dp"
+            android:text="Magic Kingdom"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:id="@+id/tvHollywoodStudios"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="HollywoodStudio"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/tvEpcot"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Epcot"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/tvAnimalKingdom"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Animal Kingdom"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
